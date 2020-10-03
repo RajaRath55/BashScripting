@@ -1,4 +1,4 @@
-top_friends = ["Jose", "Rolf", "Tom"]
+top_friends = ["Jose", "Jerry", "Tom"]
 
 for i, friend in enumerate(top_friends):
     print(f"My top {i + 1} friend is {friend}")
