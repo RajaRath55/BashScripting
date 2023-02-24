@@ -1,0 +1,9 @@
+{
+	"name": "adf-gha-practice1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "74ebb83e-3ed0-431c-a814-c21192a74756",
+		"tenantId": "e1283334-8c00-4ee0-ae08-d833282ae21e"
+	}
+}
