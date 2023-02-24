@@ -1,0 +1,61 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "output.json",
+				"container": "testcontainer"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Volcano Name": {
+					"type": "string"
+				},
+				"Country": {
+					"type": "string"
+				},
+				"Region": {
+					"type": "string"
+				},
+				"Location": {
+					"type": "object",
+					"properties": {
+						"type": {
+							"type": "string"
+						},
+						"coordinates": {
+							"type": "array",
+							"items": {
+								"type": "number"
+							}
+						}
+					}
+				},
+				"Elevation": {
+					"type": "integer"
+				},
+				"Type": {
+					"type": "string"
+				},
+				"Status": {
+					"type": "string"
+				},
+				"Last Known Eruption": {
+					"type": "string"
+				},
+				"id": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
