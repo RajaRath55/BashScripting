@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - ADFPractice
+      - master
 
 name: AzureDataFactorySync
 
