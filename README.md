@@ -1,2 +1,0 @@
-# NewRepo
-Test Cloning
