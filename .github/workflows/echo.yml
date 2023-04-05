@@ -29,5 +29,5 @@ jobs:
       - name: Run script file
         run: |
          chmod +x ./BashBasic/echo.sh
-         ./BashBasic/echo.sh
+         ./BashBasic/echo.sh "Rajat" "Rath"
         shell: bash
