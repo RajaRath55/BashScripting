@@ -29,5 +29,5 @@ jobs:
       - name: Run script file
         run: |
          chmod +x ./BashBasic/if.sh
-         ./BashBasic/if.sh 4
+         ./BashBasic/if.sh 5
         shell: bash
