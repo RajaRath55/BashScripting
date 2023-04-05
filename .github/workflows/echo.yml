@@ -28,5 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run script file
         run: |
+         chmod +x ./BashBasic/echo.sh
          ./BashBasic/echo.sh
         shell: bash
