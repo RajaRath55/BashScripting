@@ -31,5 +31,5 @@ jobs:
          input =5
          echo $input
          chmod +x ./BashBasic/if.sh
-         ./BashBasic/if.sh $input
+         ./BashBasic/if.sh 5
         shell: bash
