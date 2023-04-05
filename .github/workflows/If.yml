@@ -28,6 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run script file
         run: |
+         input =5
+         echo $input
          chmod +x ./BashBasic/if.sh
-         ./BashBasic/if.sh 5
+         ./BashBasic/if.sh $input
         shell: bash
